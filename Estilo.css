@@ -1,0 +1,61 @@
+h1,h2{
+		font-family:ZT Grafton;
+		color:green;
+	}
+	h2{
+		font-family:Bell MT;
+	}
+table{
+		border-collapse: collapse;   
+	
+}
+	
+th{     
+		color:white;       
+		background: #2E8B57; 
+		font-weight: normal;  		
+		padding: 8px;   
+		border-top: 4px solid #228B22;  
+		border-bottom: 1px solid #fff; 
+}
+
+	
+td {    
+		padding: 8px;   
+		background: #FFFAFA ;   
+		border-bottom: 1px solid #fff;
+		color: #black;  
+		border-top: 1px solid transparent;
+}
+
+input {
+	width: calc(60% - 20px);
+	padding: 9px;
+	margin-top: 8px;
+	font-size: 16px;
+	border-radius: 10px;
+}
+
+input[type='submit']{
+	background-color:green;
+	color: #fff;
+	width: calc(40% - 20px);
+	margin: 0 10%;
+	margin-top: 22px;
+	border-style:solid;
+}
+
+.ok {
+	text-align: center;
+	width: 100%;
+	padding: 12px;
+	background-color: #1e6;
+	color: #fff
+}
+.bad {
+	text-align: center;
+	width: 100%;
+	padding: 12px;
+	background-color: #a22;
+	color: #fff
+}

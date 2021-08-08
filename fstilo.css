@@ -1,0 +1,128 @@
+/*BODY*/
+	h1,h2{
+		font-family:ZT Grafton;
+		color:green;
+	}
+	h2{
+		font-family:Bell MT;
+	}
+.autor{
+	padding-left: 2%;
+}
+/*HEADER*/
+	a,h5{
+		text-decoration: none;
+		color:green;
+	}
+	hr{
+		border-color:#2E8B57;
+	}
+	h3{
+		font-family:Quicksand Bold;
+	}
+	.imgo{
+	width:1059px;
+	height:400px;
+	}
+	.slider {
+		width: 95%;
+		margin: auto;
+		overflow: hidden;
+	}
+
+	.slider ul {
+		display: flex;
+		padding: 0;
+		width: 400%;
+		
+		animation: cambio 20s infinite alternate linear;
+	}
+
+	.slider li {
+		width: 100%;
+		list-style: none;
+	}
+
+	.slider img {
+		width: 100%;
+	}
+	@keyframes cambio {
+		0% {margin-left: 0;}
+		20% {margin-left: 0;}
+		
+		25% {margin-left: -100%;}
+		45% {margin-left: -100%;}
+		
+		50% {margin-left: -200%;}
+		70% {margin-left: -200%;}
+		
+		75% {margin-left: -300%;}
+		100% {margin-left: -300%;}
+	}
+/*MAIN*/
+main{
+	width: 800px;
+	padding-left: 2%;
+		margin-left:auto;
+	margin-right:auto;
+}
+	table{
+		border-collapse: collapse;   
+
+	}
+	th{     
+		color:white;       
+		background: #2E8B57; 
+		font-weight: normal;  		
+		padding: 8px;   
+		border-top: 4px solid #228B22;  
+		border-bottom: 1px solid #fff; 
+	}
+	td{    
+		padding: 8px;   
+		background: #FFFAFA ;   
+		border-bottom: 1px solid #fff;
+		color: #black;  
+		border-top: 1px solid transparent;
+	}
+	tr:hover td {
+		background: #EEE8AA; 
+		color: #black; 
+	}
+nav{
+	width: 800px;
+	padding-left: 2%;
+	margin-left:auto;
+	margin-right:auto;
+}
+.menu{
+	background:#2E8B57;
+	list-style:none;
+	padding:28;
+	border-radius: 20px;
+}
+.menu li {
+	font-family:Hymala;
+	text-align: center;
+	display:inline-block;
+	padding: 20px;
+	position:relative;
+}
+.menu li a {
+	display:inline-block;
+	color:#FFFFFF;
+}
+.menu li a:hover {
+	color:#EEE8AA;
+}
+.blogarticule{
+	margin-left:auto;
+	margin-right:auto;
+	padding: 20px;
+    display: inline-block;
+    border: 1px ;
+}
+/*FOOTER*/
+	footer{
+		background-color:#F6F7FD;
+	}
